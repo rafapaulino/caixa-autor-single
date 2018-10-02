@@ -1,0 +1,20 @@
+{
+  "name": "caixa-autor",
+  "homepage": "https://github.com/rafapaulino/caixa-autor",
+  "description": "Caixa do autor na single",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "caixa autor single"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

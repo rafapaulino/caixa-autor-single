@@ -1,0 +1,67 @@
+/* CAIXA DO AUTOR: ;
+// --------------------------------------------------
+*/
+
+.author-info {
+    background: #F4F4F4;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.author-info .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+
+}
+
+@media screen and (min-width: 768px) {
+    .author-info .avatar {
+        float: left;
+        margin: 0;
+    }
+}
+
+.author-info .author-description {
+    clear: both;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .author-info .author-description {
+        float: right;
+        width: 75%;
+        clear: none;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .author-info .author-description {
+        width: 83%;
+    }
+}
+
+.author-info .author-description .author-bio {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.author-description h4, .comment-author-name {
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.author-description h4 {
+    margin-bottom: 5px;
+}
